@@ -1,3 +1,3 @@
-![image](https://user-images.githubusercontent.com/62836744/218321749-242e049f-c5e9-4960-8da5-98e350ff0fd7.png) 
+![image](https://user-images.githubusercontent.com/62836744/218321840-b1f4d8c4-1193-46a5-97d4-936ac7f00cff.png)) 
 # AWS Pipeline 
 ## Problem Statement
