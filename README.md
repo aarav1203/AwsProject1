@@ -41,5 +41,5 @@ Store the Current date into some database,i am using mongo-db database to store 
 Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, Glue,DynamoDb,Lambda.
 
 ## Step 1: Clone the Repository
-##### git clone https://github.com/aarav1203/AwsProject1.git
-##### cd AwsProject1
+## markdown git clone https://github.com/aarav1203/AwsProject1.git
+cd AwsProject1
