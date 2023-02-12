@@ -41,14 +41,18 @@ Store the Current date into some database,i am using mongo-db database to store 
 Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, Glue,DynamoDb,Lambda.
 
 ## Step 1: Clone the Repository
-```python
+```
 git clone https://github.com/aarav1203/AwsProject1.git
 cd AwsProject1
 ```
-### Step 2: Create a conda environment after opening the repository
-```python
+## Step 2: Create a conda environment after opening the repository
+```
 conda create -n venv python=3.7.6 -y
 ```
 ```
-conda acitvate venv
+conda activate venv/
 ```
+Make sure to ensure install Python Extension in VS code and select the python interpreter installed in virtual environment
+
+## Install the Requirements
+pip install -r requirements.txt
