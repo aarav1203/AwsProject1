@@ -45,3 +45,10 @@ Before we run the project, make sure that you are having MongoDB in your local s
 git clone https://github.com/aarav1203/AwsProject1.git
 cd AwsProject1
 ```
+### Step 2: Create a conda environment after opening the repository
+```python
+conda create -n venv python=3.7.6 -y
+```
+```
+conda acitvate venv
+```
