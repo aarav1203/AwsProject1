@@ -10,10 +10,10 @@
 ##### 4.Pyspark
 
 ## 🌐 Infrastructure Used
-1.API
-2.AWS Glue
-3.Aws S3 Bucket
-4.Aws Lambda
-5.Aws DynamoDb
+##### 1.API
+##### 2.AWS Glue
+##### 3.Aws S3 Bucket
+##### 4.Aws Lambda
+##### 5.Aws DynamoDb
 
 
