@@ -58,3 +58,9 @@ Make sure to ensure install Python Extension in VS code and select the python in
 ```
 pip install -r requirements.txt
 ```
+## Step 4: Create Lambda_Function_code folder into zip file
+###### Create Lambda_Function_Code folder into zip file which we can upload into Aws Lambda Function.
+After run this command many files will get created and then select all and zipped all
+```
+pip install --platform manylinux2014_x86_64 --target=lamda_function_code --implementation cp --python==3.9 --only-binary=:all: --upgrade pymongo[srv] boto3 requests
+```
