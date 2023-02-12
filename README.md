@@ -37,5 +37,6 @@ And Follow The same further
 
 Store the Current date into some database,i am using mongo-db database to store the current date and when download the data next time then it update from date and current date according to that.
  
-
+## How to Run ?
+Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, Glue,DynamoDb,Lambda.
 
