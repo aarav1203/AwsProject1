@@ -56,4 +56,5 @@ Make sure to ensure install Python Extension in VS code and select the python in
 
 ## Install the Requirements
 ```
-pip install -r requirements.txt ```
+pip install -r requirements.txt
+```
