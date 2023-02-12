@@ -54,7 +54,7 @@ conda activate venv/
 ```
 Make sure to ensure install Python Extension in VS code and select the python interpreter installed in virtual environment
 
-## Install the Requirements
+## Step 3: Install the Requirements
 ```
 pip install -r requirements.txt
 ```
