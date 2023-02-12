@@ -16,4 +16,8 @@
 ##### 4.Aws Lambda
 ##### 5.Aws DynamoDb
 
+## Project Architecture
+![image](https://user-images.githubusercontent.com/62836744/218323041-5d3a1f48-3bcd-4601-9e0a-ad08059934ee.png)
+
+
 
