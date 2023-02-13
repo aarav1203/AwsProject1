@@ -36,6 +36,19 @@ Current_Date="2023-03-20"
 And Follow The same further
 
 Store the Current date into some database,i am using mongo-db database to store the current date and when download the data next time then it update from date and current date according to that.
+
+## Requirement of AWS Glue
+1. Read Data from S3 Bucket
+2. Read Data from Dynamo Db
+3. Check how many DS1 is available in DS2
+4. Discard already available record
+5. Insert new records into Dynamo Db
+
+## Folder Architecture
+Whenever ETL pipeline will run then it reads file from S3 Bucket -> inbox folder and dump into Dynamo Db and after succesfully inserted it moves that file from "inbox" folder to "archive" folder which help to investigate in future.
+
+S3 /inbox/sample.json --->DynamoDb
+S3/archive/sample.json
  
 ## How to Run ?
 Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, Glue,DynamoDb,Lambda.
@@ -68,5 +81,5 @@ pip install --platform manylinux2014_x86_64 --target=lamda_function_code --imple
 ## Step 5: Create Lambda Function
 ##### Upload the previous zipped file into this.
 ##### Add all the environment eg. MongoDb database name,collection name,S3 Bucket Name
-##### Give Permission to S3 for full access
+##### Give Permission to Lamda to full access S3
 ##### Add Trigger to Lambda function to fetch data on regular interval of time(eg.weekly or monthly basis)
