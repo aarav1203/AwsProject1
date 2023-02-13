@@ -94,5 +94,7 @@ Sort Key :- "product"
 2.Select Python language
 3.Select type as 'Spark'
 4.Then go with Default Configuration
+5.Create Scheduler prefer 1 day after Lambda Trigger
 #### Upload this script in Aws Glue Script section
 ###### https://github.com/aarav1203/AwsProject1/blob/main/AwsGlue_script.py
+
