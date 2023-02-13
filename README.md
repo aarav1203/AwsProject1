@@ -85,6 +85,7 @@ pip install --platform manylinux2014_x86_64 --target=lamda_function_code --imple
 ##### Add Trigger to Lambda function to fetch data on regular interval of time(eg.weekly or monthly basis)
 
 ## Step 6: Configure Dynamo Db
-``` Partition key :- "complaint_id"
-    Sort Key :- "product"
-    ```
+``` 
+Partition key :- "complaint_id"
+Sort Key :- "product"
+```
