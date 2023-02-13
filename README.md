@@ -53,12 +53,7 @@ S3/archive/sample.json
 ## How to Run ?
 Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, Glue,DynamoDb,Lambda.
 
-## Step 1: Clone the Repository
-```
-git clone https://github.com/aarav1203/AwsProject1.git
-cd AwsProject1
-```
-## Step 2: Create a conda environment after opening the repository
+## Step 1: Create a conda environment after opening the repository
 ```
 conda create -n venv python=3.7.6 -y
 ```
@@ -67,36 +62,36 @@ conda activate venv/
 ```
 Make sure to ensure install Python Extension in VS code and select the python interpreter installed in virtual environment
 
-## Step 3: Install the Requirements
+## Step 2: Install the Requirements
 ```
 pip install -r requirements.txt
 ```
-## Step 4: Create Lambda_Function_code folder into zip file
+## Step 3: Create Lambda_Function_code folder into zip file
 ###### Create Lambda_Function_Code folder into zip file which we can upload into Aws Lambda Function.
 After run this command many files will get created and then select all and zipped all
 ```
 pip install --platform manylinux2014_x86_64 --target=lamda_function_code --implementation cp --python==3.9 --only-binary=:all: --upgrade pymongo[srv] boto3 requests
 ```
 
-## Step 5: Create Lambda Function
+## Step 4: Create Lambda Function
 ##### Upload the previous zipped file into this.
 ##### Add all the environment eg. MongoDb database name,collection name,S3 Bucket Name
 ##### Give Permission to Lamda to full access S3
 ##### Add Trigger to Lambda function to fetch data on regular interval of time(eg.weekly or monthly basis)
 
-## Step 6: Configure Dynamo Db
+## Step 5: Configure Dynamo Db
 ``` 
 Partition key :- "complaint_id"
 Sort Key :- "product"
 ```
-## Step 7: Configure AWS Glue
+## Step 6: Configure AWS Glue
 1. Give permission to glue to  access S3 bucket
 2. Select Python language
 3. Select type as 'Spark'
 4. Then go with Default Configuration
 5. Create Scheduler "prefer 1 day after Lambda Trigger"
 
-#### Upload this script in Aws Glue Script section
+#### Upload this script in Aws Glue Script section (only change field and value accordingly)
 ###### https://github.com/aarav1203/AwsProject1/blob/main/AwsGlue_script.py
 
 ## 🧐Conclusion
