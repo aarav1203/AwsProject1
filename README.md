@@ -64,3 +64,9 @@ After run this command many files will get created and then select all and zippe
 ```
 pip install --platform manylinux2014_x86_64 --target=lamda_function_code --implementation cp --python==3.9 --only-binary=:all: --upgrade pymongo[srv] boto3 requests
 ```
+
+## Step 5: Create Lambda Function
+##### Upload the previous zipped file into this.
+##### Add all the environment eg. MongoDb database name,collection name,S3 Bucket Name
+##### Give Permission to S3 for full access
+##### Add Trigger to Lambda function to fetch data on regular interval of time(eg.weekly or monthly basis)
