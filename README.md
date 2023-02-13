@@ -99,3 +99,5 @@ Sort Key :- "product"
 #### Upload this script in Aws Glue Script section
 ###### https://github.com/aarav1203/AwsProject1/blob/main/AwsGlue_script.py
 
+## 🧐Conclusion
+This project can be used at industry level as end to end pipeline to  extract data from external source and dump into database with the help of different Aws services without managing anything from our side ,only pay as our uses.
