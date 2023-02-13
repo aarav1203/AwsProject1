@@ -95,4 +95,4 @@ Sort Key :- "product"
 3.Select type as 'Spark'
 4.Then go with Default Configuration
 #### Upload this script in Aws Glue Script section
-###### https://github.com/aarav1203/AwsProject1/blob/main/project_steps.txt
+###### https://github.com/aarav1203/AwsProject1/blob/main/AwsGlue_script.py
