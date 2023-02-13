@@ -89,3 +89,10 @@ pip install --platform manylinux2014_x86_64 --target=lamda_function_code --imple
 Partition key :- "complaint_id"
 Sort Key :- "product"
 ```
+## Step 7: Configure AWS Glue
+1.Give permission to glue to  access S3 bucket
+2.Select Python language
+3.Select type as 'Spark'
+4.Then go with Default Configuration
+#### Upload this script in Aws Glue Script section
+###### https://github.com/aarav1203/AwsProject1/blob/main/project_steps.txt
